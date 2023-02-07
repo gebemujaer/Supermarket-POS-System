@@ -10,7 +10,7 @@
 ## Flow chart
 ![Flowchart](https://github.com/gebemujaer/Supermarket-POS-System/blob/main/Flowchart.jpeg?raw=true)
 
-## Fungsi yang Diperlukan:
+## Fungsi yang Diperlukan
 ### Fungsi Transaksi
 - Mengumpulkan data pelanggan;
 - Menghitung biaya total;
