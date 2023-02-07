@@ -1,5 +1,8 @@
 # Supermarket-POS-System
 
+## Latar Belakang
+Repository membantu membangun sistem kasir otomatis supermarket dengan NumPy. Code bersih, moduler dan dilengkapi dokumentasi dan try, error. Keamanan pelanggan dan proses pembayaran efisien terjamin. Integrasi dengan e-commerce mempermudah transaksi baik di dalam maupun di luar kota.
+
 ## Tujuan
 1. Membangun sistem kasir otomatis yang akan membuat pelanggan dapat dengan cepat melakukan transaksi di supermarket.
 2. Mengintegrasikan sistem kasir otomatis dengan layanan e-commerce sehingga pelanggan yang berada di luar kota juga dapat melakukan pembelian dari supermarket.
