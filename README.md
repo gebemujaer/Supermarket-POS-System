@@ -8,5 +8,13 @@
 5. Memastikan bahwa pembayaran yang diterima dari pelanggan melalui sistem kasir otomatis dapat diproses dengan cepat dan efektif.
 
 ## Flow chart
+![Flowchart](https://github.com/gebemujaer/Supermarket-POS-System/blob/main/Flowchart.jpeg?raw=true)
 
-
+## Fungsi yang Diperlukan:
+### Fungsi Transaksi
+- Mengumpulkan data pelanggan;
+- Menghitung biaya total;
+- Memproses pembayaran;
+- Menangani transaksi e-commerce.
+### Fungsi Autentikasi dan Perlindungan Data Pelanggan
+### Fungsi untuk Penangan Error dan Logging
