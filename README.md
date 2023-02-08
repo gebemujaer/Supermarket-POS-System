@@ -1,5 +1,9 @@
 # Supermarket-POS-System
 
+## Keterangan File
+- Folder `Images` berisikan gambar-gambar potongan dari Test Case
+- `script.py` berfungsi untuk menyimpan kode yang telah dibuat pada halaman Jupyter Notebook.
+
 ## Latar Belakang
 - Peningkatan Efisiensi Transaksi: Sistem yang akan dikembangkan akan membuat proses transaksi menjadi lebih cepat dan efisien dengan adanya fitur untuk membuat ID transaksi customer;
 - Kemudahan Input Data: Dengan adanya form untuk memasukkan detail item, customer dapat dengan mudah memasukkan data item yang dibeli seperti nama, jumlah, dan harga;
