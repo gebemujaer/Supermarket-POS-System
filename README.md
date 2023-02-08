@@ -25,15 +25,12 @@
 ![Flowchart](https://github.com/gebemujaer/Supermarket-POS-System/blob/main/Flowchart.jpeg?raw=true)
 
 ## Penjelasan Fungsi
-- create_app - merupakan fungsi utama yang digunakan untuk membuat instance dari Flask aplikasi.
-- db - inisialisasi database SQLAlchemy dengan Flask-SQLAlchemy.
-- ma - inisialisasi Marshmallow untuk serialisasi/deserialisasi objek database.
-- Todo - merupakan class modul yang merepresentasikan tabel todo pada database.
-- TodoSchema - merupakan class modul yang merepresentasikan skema untuk serialisasi/deserialisasi data todo.
-- config_app - fungsi yang digunakan untuk mengkonfigurasi aplikasi Flask.
-- index - fungsi yang digunakan untuk menampilkan halaman utama aplikasi.
-- create_todo - fungsi yang digunakan untuk membuat data todo baru.
-- get_all_todos - fungsi yang digunakan untuk mengambil seluruh data todo.
-- get_todo - fungsi yang digunakan untuk mengambil data todo spesifik berdasarkan ID-nya.
-- update_todo - fungsi yang digunakan untuk memperbarui data todo.
-- delete_todo - fungsi yang digunakan untuk menghapus data todo.
+### Method
+- add_item() yang berfungsi untuk menambahkan item ke list items.
+- update_item_name() yang berfungsi untuk mengupdate nama item.
+- update_item_qty() yang berfungsi untuk mengupdate jumlah item.
+- update_item_price() yang berfungsi untuk mengupdate harga item.
+- delete_item() yang berfungsi untuk menghapus item dari list items.
+- reset_transaction() yang berfungsi untuk mengosongkan list items.
+- check_order() yang berfungsi untuk memeriksa apakah terdapat kesalahan input data atau tidak.
+- total_price() yang berfungsi untuk menghitung total harga belanja dan memberikan diskon jika memenuhi syarat.
