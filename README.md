@@ -49,9 +49,15 @@ Dari semua method tersebut, kita dapat melakukan berbagai proses transaksi seper
 
 ## Test Case
 ### Test 1
-Customer ingin menambahkan dua item baru menggunakan method `add_item()`. Item yang ditambahkan adalah sebagai berikut:
+_Customer_ ingin menambahkan dua item baru menggunakan method `add_item()`. Item yang ditambahkan adalah sebagai berikut:
 - Nama item: Ayam Goreng, Qty: 2, Harga: 20000
 - Nama item: Pasta Gigi, Qty: 3, Harga: 15000
 
-**Output**
+**Output**:
 ![Test Case 1](https://github.com/gebemujaer/Supermarket-POS-System/blob/main/Test%20Case%201.png)
+
+### Test 2
+Ternyata _Customer_ salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka _Customer_ menggunakan method `delete_item()` untuk menghapus item. Item yang ingin dihapuskan adalah **Pasta Gigi**.
+
+**Output**:
+![Test Case 2]
