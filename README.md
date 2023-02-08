@@ -48,7 +48,7 @@
 Dari semua method tersebut, kita dapat melakukan berbagai proses transaksi seperti menambahkan item, mengupdate item, menghapus item, memeriksa data transaksi, dan menghitung total harga setelah diskon.
 
 ## Test Case
-### Test 1
+### Test 1 – `add_item()`
 _Customer_ ingin menambahkan dua item baru menggunakan method `add_item()`. Item yang ditambahkan adalah sebagai berikut:
 - Nama item: Ayam Goreng, Qty: 2, Harga: 20000
 - Nama item: Pasta Gigi, Qty: 3, Harga: 15000
@@ -56,19 +56,19 @@ _Customer_ ingin menambahkan dua item baru menggunakan method `add_item()`. Item
 **Output**:
 ![Test Case 1](https://github.com/gebemujaer/Supermarket-POS-System/blob/main/Test%20Case%201.png)
 
-### Test 2
+### Test 2 – `delete_item()`
 Ternyata _Customer_ salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka _Customer_ menggunakan method `delete_item()` untuk menghapus item. Item yang ingin dihapuskan adalah **Pasta Gigi**.
 
 **Output**:
 ![Test Case 2](https://github.com/gebemujaer/Supermarket-POS-System/blob/main/Test%20Case%202.png)
 
-### Test 3
+### Test 3 – `reset_transaction()`
 Ternyata setelah dipikir-pikir _Customer_ salah memasukkan item yang ingin dibelanjakan! Daripada menghapusnya satu per satu, maka _Customer_ cukup menggunakan method `reset_transaction()` untuk menghapuys semua item yang sudah ditambahkan.
 
 **Output**:
 ![Test Case 3](https://github.com/gebemujaer/Supermarket-POS-System/blob/main/Test%20Case%203.png)
 
-### Test 4
+### Test 4 – `total_price()`
 Setelah selesai berbelanja, _Customer_ akan menghitung total belanja yang harus dibayarkan menggunakan method `total_price()`. Sebelum mengeluarkan output total belanja akan menampilkan item-item yang dibeli.
 
 **Output**:
