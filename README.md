@@ -75,9 +75,11 @@ Setelah selesai berbelanja, _Customer_ akan menghitung total belanja yang harus 
 ![Test Case 4](https://github.com/gebemujaer/Supermarket-POS-System/blob/main/Test%20Case%204.png)
 
 ## Kesimpulan
-1. Project Super Cashier merupakan sebuah aplikasi kasir yang membantu customer untuk melakukan transaksi belanja dengan mudah dan efisien.
-2. Proyek ini menggunakan `class Transaction` untuk melakukan proses transaksi belanja, seperti menambah item, menghapus item, dan melihat item yang sudah dibeli.
-3. Proyek ini juga menggunakan `method add_item()` untuk menambah item yang akan dibeli, `delete_item()` untuk menghapus item yang sudah ditambahkan, `reset_transaction()` untuk menghapus semua item yang sudah ditambahkan, dan `total_price()` untuk menghitung total belanja yang harus dibayarkan.
+1. Project Super Cashier adalah sebuah aplikasi kasir sederhana yang memiliki fungsi untuk menyimpan item belanjaan dan menghitung total harga.
+2. Fungsi-fungsi seperti add_item, delete_item, dan reset_transaction telah diterapkan untuk mempermudah pengguna dalam menambahkan, menghapus, dan mereset item belanjaan.
+3. Output dari aplikasi ini terstruktur dan mempermudah pengguna dalam memantau item belanjaan dan total harga yang harus dibayarkan.
+4. Project Super Cashier dapat menjadi pilihan yang baik bagi mereka yang mencari aplikasi kasir sederhana dan mudah digunakan.
+5. Walaupun masih banyak ruang untuk pengembangan lebih lanjut, Project Super Cashier sudah memberikan solusi dasar yang efektif untuk mengelola transaksi belanja.
 
 ## _Possible Improvements_
 1. Penambahan Fitur Pembayaran: Proyek ini dapat ditingkatkan dengan menambahkan fitur pembayaran seperti pembayaran melalui kartu kredit atau e-wallet.
