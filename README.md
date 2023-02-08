@@ -26,11 +26,14 @@
 
 ## Penjelasan Fungsi
 ### Method
-- add_item() yang berfungsi untuk menambahkan item ke list items.
-- update_item_name() yang berfungsi untuk mengupdate nama item.
-- update_item_qty() yang berfungsi untuk mengupdate jumlah item.
-- update_item_price() yang berfungsi untuk mengupdate harga item.
-- delete_item() yang berfungsi untuk menghapus item dari list items.
-- reset_transaction() yang berfungsi untuk mengosongkan list items.
-- check_order() yang berfungsi untuk memeriksa apakah terdapat kesalahan input data atau tidak.
-- total_price() yang berfungsi untuk menghitung total harga belanja dan memberikan diskon jika memenuhi syarat.
+- __init__ : method ini akan dijalankan saat instance dari class Transaction dibuat. Method ini menetapkan atribut transaction_id dengan nilai "trnsct_123" dan menetapkan atribut items sebagai list kosong.
+- add_item : method ini akan menambahkan item ke dalam list items. Parameter yang diterima adalah item.
+- update_item_name : method ini akan mengupdate nama item dalam list items. Parameter yang diterima adalah name dan update_name. Method akan mencari item dengan nama name dan mengubah namanya menjadi update_name.
+- update_item_qty : method ini akan mengupdate jumlah item dalam list items. Parameter yang diterima adalah name dan update_qty. Method akan mencari item dengan nama name dan mengubah jumlahnya menjadi update_qty.
+- update_item_price : method ini akan mengupdate harga item dalam list items. Parameter yang diterima adalah name dan update_price. Method akan mencari item dengan nama name dan mengubah harganya menjadi update_price.
+- delete_item : method ini akan menghapus item dalam list items. Parameter yang diterima adalah name. Method akan mencari item dengan nama name dan menghapusnya.
+- reset_transaction : method ini akan menghapus semua item dalam list items.
+- check_order : method ini akan memeriksa kebenaran data dalam list items. Method akan mengembalikan string "Terdapat kesalahan input data" jika ada item dalam list yang memiliki nilai None. Jika tidak, method akan mengembalikan string "Pemesanan sudah benar".
+- total_price : method ini akan menghitung total harga dari semua item dalam list items dan memberikan diskon jika total harga melebihi batas tertentu. Method akan mengembalikan nilai total harga setelah diskon.
+
+Dari semua method tersebut, kita dapat melakukan berbagai proses transaksi seperti menambahkan item, mengupdate item, menghapus item, memeriksa data transaksi, dan menghitung total harga setelah diskon.
