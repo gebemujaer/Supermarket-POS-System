@@ -21,8 +21,17 @@
 - Implementasi method check_order untuk memeriksa input data dan mengeluarkan pesan "Pemesanan sudah benar" atau "Terdapat kesalahan input data"
 - Implementasi method total_price untuk menghitung total belanja dan memberikan diskon sesuai ketentuan.
 
-## Flow chart
-![Flowchart](https://github.com/gebemujaer/Supermarket-POS-System/blob/main/Flowchart.jpeg?raw=true)
+## Alur Program
+1. Membuat class Transaction
+2. Membuat method init yang menentukan atribut class seperti ID transaksi dan list item belanjaan.
+3. Membuat method add_item untuk memasukkan item belanjaan ke list item belanjaan.
+4. Membuat method update_item_name untuk memperbaiki nama item belanjaan.
+5. Membuat method update_item_qty untuk memperbaiki jumlah item belanjaan.
+6. Membuat method update_item_price untuk memperbaiki harga item belanjaan.
+7. Membuat method delete_item untuk menghapus item belanjaan.
+8. Membuat method reset_transaction untuk mereset transaksi.
+9. Membuat method check_order untuk memeriksa input data.
+10. Membuat method total_price untuk menghitung total belanja dan memberikan diskon sesuai ketentuan.
 
 ## Penjelasan Fungsi
 ### Method
