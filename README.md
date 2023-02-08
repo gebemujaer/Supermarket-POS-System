@@ -46,3 +46,9 @@
 - `total_price` : method ini akan menghitung total harga dari semua item dalam list items dan memberikan diskon jika total harga melebihi batas tertentu. Method akan mengembalikan nilai total harga setelah diskon.
 
 Dari semua method tersebut, kita dapat melakukan berbagai proses transaksi seperti menambahkan item, mengupdate item, menghapus item, memeriksa data transaksi, dan menghitung total harga setelah diskon.
+
+## Test Case
+### Test 1
+Customer ingin menambahkan dua item baru menggunakan method `add_item()`. Item yang ditambahkan adalah sebagai berikut:
+- Nama item: Ayam Goreng, Qty: 2, Harga: 20000
+- Nama item: Pasta Gigi, Qty: 3, Harga: 15000
