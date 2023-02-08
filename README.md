@@ -52,3 +52,6 @@ Dari semua method tersebut, kita dapat melakukan berbagai proses transaksi seper
 Customer ingin menambahkan dua item baru menggunakan method `add_item()`. Item yang ditambahkan adalah sebagai berikut:
 - Nama item: Ayam Goreng, Qty: 2, Harga: 20000
 - Nama item: Pasta Gigi, Qty: 3, Harga: 15000
+
+**Output**
+![Test Case 1](https://github.com/gebemujaer/Supermarket-POS-System/blob/main/Test%20Case%201.png)
