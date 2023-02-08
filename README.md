@@ -60,4 +60,29 @@ _Customer_ ingin menambahkan dua item baru menggunakan method `add_item()`. Item
 Ternyata _Customer_ salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka _Customer_ menggunakan method `delete_item()` untuk menghapus item. Item yang ingin dihapuskan adalah **Pasta Gigi**.
 
 **Output**:
-![Test Case 2]
+![Test Case 2](https://github.com/gebemujaer/Supermarket-POS-System/blob/main/Test%20Case%202.png)
+
+### Test 3
+Ternyata setelah dipikir-pikir _Customer_ salah memasukkan item yang ingin dibelanjakan! Daripada menghapusnya satu per satu, maka _Customer_ cukup menggunakan method `reset_transaction()` untuk menghapuys semua item yang sudah ditambahkan.
+
+**Output**:
+![Test Case 3](https://github.com/gebemujaer/Supermarket-POS-System/blob/main/Test%20Case%203.png)
+
+### Test 4
+Setelah selesai berbelanja, _Customer_ akan menghitung total belanja yang harus dibayarkan menggunakan method `total_price()`. Sebelum mengeluarkan output total belanja akan menampilkan item-item yang dibeli.
+
+**Output**:
+![Test Case 4](https://github.com/gebemujaer/Supermarket-POS-System/blob/main/Test%20Case%204.png)
+
+## Kesimpulan
+1. Project Super Cashier merupakan sebuah aplikasi kasir yang membantu customer untuk melakukan transaksi belanja dengan mudah dan efisien.
+2. Proyek ini menggunakan `class Transaction` untuk melakukan proses transaksi belanja, seperti menambah item, menghapus item, dan melihat item yang sudah dibeli.
+3. Proyek ini juga menggunakan `method add_item()` untuk menambah item yang akan dibeli, `delete_item()` untuk menghapus item yang sudah ditambahkan, `reset_transaction()` untuk menghapus semua item yang sudah ditambahkan, dan `total_price()` untuk menghitung total belanja yang harus dibayarkan.
+
+## _Possible Improvements_
+1. Penambahan Fitur Pembayaran: Proyek ini dapat ditingkatkan dengan menambahkan fitur pembayaran seperti pembayaran melalui kartu kredit atau e-wallet.
+2. Integrasi dengan Sistem Inventory: Integrasi dengan sistem inventory akan mempermudah proses pencatatan stok dan pemantauan stok barang.
+3. Laporan Penjualan: Proyek ini juga bisa ditingkatkan dengan menambahkan fitur laporan penjualan yang dapat mencakup data penjualan harian, mingguan, bulanan dan tahunan.
+4. Penambahan Fitur Diskon: Fitur diskon bisa ditambahkan untuk memberikan pengalaman belanja yang lebih menyenangkan bagi pelanggan.
+5. User Management System: Proyek ini dapat ditingkatkan dengan menambahkan sistem manajemen pengguna untuk memantau dan mengelola akses pengguna ke sistem.
+6. Akses Dari Berbagai Platform: Proyek ini dapat ditingkatkan dengan menambahkan akses dari berbagai platform seperti mobile atau web untuk mempermudah pelanggan melakukan transaksi.
